@@ -1,0 +1,150 @@
+* {
+    background-color: rgb(47, 49, 73);
+    line-height: 150%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.nav-link {
+    background-clip: text;
+    font-family: rubik, sans-serif;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+#bio {
+    font-family: rubik, sans-serif;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 50px;
+    border-radius: 75px;
+}
+
+#skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#skill-list > a > img {
+    width: 100px;
+    margin: 20px;
+}
+
+#certifications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.cert-img {
+    margin: 25px;
+}
+
+button {
+    display: flex;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: ubuntu, sans-serif;
+    background-color: rgba(255, 255, 255, 0.575);
+    border: 2px solid rgb(95, 95, 219);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        justify-content: center;
+        border-radius: 0px 0px -20px -20px;
+    }
+
+    #splash-img-div {
+        display: flex;
+    }
+
+    #splash-img {
+        width: 50%;
+        border-radius: 50%;
+        border: 5px solid rgb(95, 95, 219);
+        margin: 25% auto 25% auto;
+    }
+
+    #bio {
+        margin: 100px 50px;
+        font-size: 18px;
+    }
+
+    #skill-list {
+        margin-top: 265px;
+    }
+
+    .cert-img {
+        width: 75%;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .nav-link {
+        margin-left: 68px;
+    }
+
+    #splash-img {
+        width: 180px;
+        border-radius: 50%;
+        margin-top: 45px;
+        margin-left: 45px;
+    }
+
+    #splash-img-div {
+        position: absolute;
+        display: flex;
+        top: 0;
+        z-index: -1;
+        left: 0;
+        background-color: black;
+        width: 265px;
+        padding-bottom: 40px;
+        border-radius: 0 0 125px 0;
+    }
+
+    #bio {
+        margin: 285px 132px 265px 265px;
+    }
+
+    #skill-list {
+        margin-top: 200px;
+    }
+
+    .cert-img {
+        width: 40%;
+    }
+}
+
