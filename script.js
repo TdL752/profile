@@ -1,6 +1,7 @@
 const loadMoreBtn = document.getElementById('load-more-btn');
+const showLessBtn = document.getElementById('show-less-btn');
 const certificationsContainer = document.getElementById('certifications');
-const itemsPerPage = 2;
+const itemsPerClick = 2;
 let currentIndex = 0;
 
 const allCerts = [
@@ -19,7 +20,7 @@ const allCerts = [
 ]
 
 function displayCerts() {
-    const nextBatch = allCerts.slice(currentIndex, currentIndex + itemsPerPage);
+    const nextBatch = allCerts.slice(currentIndex, currentIndex + itemsPerClick);
 
     nextBatch.forEach(cert => {
         let newImg = document.createElement('img');
@@ -27,14 +28,29 @@ function displayCerts() {
         newImg.alt = cert.name;
         newImg.title = cert.name;
         newImg.classList.add('cert-img');
+        newImg.classList.add('newImg');
         certificationsContainer.appendChild(newImg);
     });
 
-    currentIndex += itemsPerPage;
+    currentIndex += itemsPerClick;
 
     if (currentIndex >= allCerts.length) {
         loadMoreBtn.style.display = 'none';
+        showLessBtn.style.display = 'block';
     }
 }
 
+function showLess() {
+    document.querySelectorAll('.newImg').forEach(cert => {
+        cert.remove();
+    })
+    
+    loadMoreBtn.style.display = 'block';
+    showLessBtn.style.display = 'none';
+    currentIndex = 0;
+    return;
+}
+
+
+showLessBtn.addEventListener('click', showLess);
 loadMoreBtn.addEventListener('click', displayCerts);
