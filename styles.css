@@ -33,7 +33,7 @@ nav {
     font-family: rubik, sans-serif;
     color: black;
     background-color: rgb(113, 113, 153);
-    padding: 50px;
+    padding: 50px 10%;
     border-radius: 75px;
 }
 
@@ -90,7 +90,7 @@ button:hover {
 .projects {
     background-color: rgb(113, 113, 153);
     padding-top: 50px;
-    margin: 100px 10% 0px 10%;
+    margin: 100px 10px 0px 10px;
     border-radius: 75px;
 }
 
@@ -112,7 +112,7 @@ button:hover {
     font-family: rubik, sans-serif;
     color: black;
     background-color: rgb(35, 131, 131);
-    padding: 50px;
+    padding: 50px 10%;
     border-radius: 75px;
 }
 
@@ -136,7 +136,7 @@ button:hover {
     }
 
     #bio {
-        margin: 100px 50px;
+        margin: 100px 10px;
         font-size: 18px;
     }
 
