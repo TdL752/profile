@@ -117,7 +117,7 @@ button:hover {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     nav {
         justify-content: center;
         border-radius: 0px 0px -20px -20px;
@@ -154,7 +154,7 @@ button:hover {
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .nav-link {
         margin-left: 68px;
     }
@@ -179,7 +179,7 @@ button:hover {
     }
 
     #bio {
-        margin: 285px 132px 265px 265px;
+        margin: 285px 265px 265px 265px;
     }
 
     #skill-list {
