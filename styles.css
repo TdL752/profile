@@ -90,7 +90,6 @@ button:hover {
 .projects {
     background-color: rgb(113, 113, 153);
     padding-top: 50px;
-    margin: 100px 10px 0px 10px;
     border-radius: 75px;
 }
 
@@ -147,6 +146,10 @@ button:hover {
     .cert-img, .project-img {
         width: 75%;
     }
+
+    .projects {
+        margin: 100px 10px 0px 10px;
+    }
 }
 
 
@@ -189,6 +192,10 @@ button:hover {
 
     .text-content {
         margin: 50px 0px;
+    }
+
+    .projects {
+        margin: 100px 10% 0px 10%;
     }
 }
 
