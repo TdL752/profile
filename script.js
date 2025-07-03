@@ -10,16 +10,16 @@ let currentIndexProjects = 0;
 
 const allCerts = [
     {
+        name: "introduction to software engineering certification",
+        src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1747958809/introduction-to-software-engineering_i8lw3v.png"
+    },
+    {
         name: "intro to html css and javascript certification",
         src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1747958525/intro-to-html-css-and-js_hbollu.png"
     },
     {
         name: "getting started with front end web development certification",
         src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1747958776/getting-started-with-front-end-web-development_rycmsp.png"
-    },
-    {
-        name: "responsive web design certification",
-        src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1748023096/responsive-web-design-fixed_ituyae.png"
     }
 ];
 
@@ -127,10 +127,8 @@ function showLessProjects() {
         add.remove();
     });
 
-    if (currentIndexProjects >= allProjects.length) {
-        loadMoreProjectsBtn.style.display = 'block';
-        showLessProjectsBtn.style.display = 'none';
-    };
+    loadMoreProjectsBtn.style.display = 'block';
+    showLessProjectsBtn.style.display = 'none';
 
     currentIndexProjects = 0;
 
