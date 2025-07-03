@@ -127,10 +127,8 @@ function showLessProjects() {
         add.remove();
     });
 
-    if (currentIndexProjects >= allProjects.length) {
-        loadMoreProjectsBtn.style.display = 'block';
-        showLessProjectsBtn.style.display = 'none';
-    };
+    loadMoreProjectsBtn.style.display = 'block';
+    showLessProjectsBtn.style.display = 'none';
 
     currentIndexProjects = 0;
 
