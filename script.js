@@ -86,7 +86,7 @@ function loadMoreProjects() {
 
     nextBatch.forEach(project => {
         const newProjectDiv = document.createElement('div');
-        newProjectDiv.classList.add('projects');
+        newProjectDiv.classList.add('project');
         newProjectDiv.classList.add('added');
 
         const newTitle = document.createElement('h2');
