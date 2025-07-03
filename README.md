@@ -1,2 +1,2 @@
-# portfoliov2.0
+# portfolio
 # Remade personal portfolio website
