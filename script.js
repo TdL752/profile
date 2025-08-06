@@ -25,6 +25,13 @@ const allCerts = [
 
 const allProjects = [
     {
+        projectName: "Price Compare",
+        title: "Price Compare",
+        alt: "Price comparison web app",
+        src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1748662261/priceCompare_yis3f9.png",
+        text: "This is a web application that utilizes javascript to easily compare the prices of similar items and visualizes the better deal based on price per unit of measurement. Price Compare can be used most effectively when buying products in bulk and effectivly removes the need for a calculator, automating a very simple but some what tedious and frustrating aspect of comparing prices."
+    },
+    {
         projectName: "Creature Search App",
         title: "Creature Search",
         alt: "Creature Search Web App screenshot",
