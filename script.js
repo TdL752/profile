@@ -10,6 +10,10 @@ let currentIndexProjects = 0;
 
 const allCerts = [
     {
+        name: "javascript algorithms and data structures certification",
+        src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1748023096/javascript-algorithms-and-data-structures-fixed_ydu4gy.png"
+    },
+    {
         name: "introduction to software engineering certification",
         src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1747958809/introduction-to-software-engineering_i8lw3v.png"
     },
