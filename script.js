@@ -14,6 +14,10 @@ const allCerts = [
         src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1748023096/javascript-algorithms-and-data-structures-fixed_ydu4gy.png"
     },
     {
+        name: "responsive web design certification",
+        src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1748023096/responsive-web-design-fixed_ituyae.png"
+    },
+    {
         name: "introduction to software engineering certification",
         src: "https://res.cloudinary.com/dbuwekmex/image/upload/v1747958809/introduction-to-software-engineering_i8lw3v.png"
     },
